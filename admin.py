@@ -61,7 +61,7 @@ class SousCategorieAdmin(admin.ModelAdmin):
     # creation des fonction
     
     def view_image(self,obj):
-       return mark_safe('<img src = "{url}" width = " 250px " heigth = " 350px " />'.format(url=obj.image.url))
+       return mark_safe('<img src = "{url}" width = " 100px " heigth = " 100px " />'.format(url=obj.image.url))
    
     def detail_image(self,obj):
         return mark_safe('<img src = "{url}" width = " 100px " heigth = " 100px " />'.format(url=obj.image.url))

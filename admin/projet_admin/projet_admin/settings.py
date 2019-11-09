@@ -39,11 +39,10 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'django_better_admin_arrayfield.apps.DjangoBetterAdminArrayfieldConfig',
+    'django_json_widget',
     'tuto_admin.apps.TutoAdminConfig',
-    # 'django_admin_generator',
-    # 'rest_framework',
-    # 'tinymce',
-    # 'filebrowser',
+   
 ]
 
 MIDDLEWARE = [
